@@ -1,0 +1,27 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug (默认值)",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "JSONCPP_WITH_EXAMPLE",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "JSONCPP_WITH_WARNING_AS_ERROR",
+          "value": "True",
+          "type": "BOOL"
+        }
+      ]
+    }
+  ]
+}
